@@ -1,4 +1,4 @@
-# studyfocus
+# StudyShield
 
 A new Flutter project.
 

@@ -3,7 +3,7 @@ export const ADMIN_HTML = `<!doctype html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>StudyFocus Admin</title>
+<title>StudyShield Admin</title>
 <style>
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
@@ -50,7 +50,7 @@ export const ADMIN_HTML = `<!doctype html>
 <div class="wrap">
 
   <div id="loginScreen">
-    <h1><span class="dot"></span> StudyFocus Admin</h1>
+    <h1><span class="dot"></span> StudyShield Admin</h1>
     <div class="card">
       <label>Admin password</label>
       <input type="password" id="passwordInput" placeholder="Enter admin password" />
@@ -62,7 +62,7 @@ export const ADMIN_HTML = `<!doctype html>
   </div>
 
   <div id="adminScreen" style="display:none;">
-    <h1><span class="dot"></span> StudyFocus Admin
+    <h1><span class="dot"></span> StudyShield Admin
       <button class="secondary" style="margin-left:auto;font-size:12px;" onclick="logout()">Log out</button>
     </h1>
 

@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.codekingdev" "\0"
-            VALUE "FileDescription", "studyfocus" "\0"
+            VALUE "FileDescription", "StudyShield" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "studyfocus" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.codekingdev. All rights reserved." "\0"
             VALUE "OriginalFilename", "studyfocus.exe" "\0"
-            VALUE "ProductName", "studyfocus" "\0"
+            VALUE "ProductName", "StudyShield" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

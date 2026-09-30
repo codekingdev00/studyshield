@@ -5,16 +5,16 @@ import 'models/study_material.dart';
 import 'study_api.dart';
 
 void main() {
-  runApp(const StudyFocusApp());
+  runApp(const StudyShieldApp());
 }
 
-class StudyFocusApp extends StatelessWidget {
-  const StudyFocusApp({super.key});
+class StudyShieldApp extends StatelessWidget {
+  const StudyShieldApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'StudyFocus',
+      title: 'StudyShield',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,
@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       size: 32, color: Colors.tealAccent),
                   SizedBox(width: 10),
                   Text(
-                    'StudyFocus',
+                    'StudyShield',
                     style: TextStyle(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,

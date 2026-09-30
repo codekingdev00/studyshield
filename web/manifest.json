@@ -1,6 +1,6 @@
 {
-    "name": "studyfocus",
-    "short_name": "studyfocus",
+    "name": "StudyShield",
+    "short_name": "StudyShield",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -10,10 +10,10 @@ void main() {
 
   testWidgets('Home screen lists the fallback study group and materials',
       (WidgetTester tester) async {
-    await tester.pumpWidget(const StudyFocusApp());
+    await tester.pumpWidget(const StudyShieldApp());
     await tester.pumpAndSettle(const Duration(seconds: 10));
 
-    expect(find.text('StudyFocus'), findsOneWidget);
+    expect(find.text('StudyShield'), findsOneWidget);
     expect(find.text('Grade 10 Study Group'), findsOneWidget);
     expect(find.text('Parts of Speech'), findsOneWidget);
     expect(find.text('Quadratic Equations'), findsOneWidget);
@@ -22,7 +22,7 @@ void main() {
 
   testWidgets('Opening a material shows its content and a Start button',
       (WidgetTester tester) async {
-    await tester.pumpWidget(const StudyFocusApp());
+    await tester.pumpWidget(const StudyShieldApp());
     await tester.pumpAndSettle(const Duration(seconds: 10));
 
     await tester.tap(find.text('Parts of Speech'));

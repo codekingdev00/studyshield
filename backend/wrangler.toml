@@ -1,0 +1,11 @@
+name = "studyfocus-api"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "studyfocus"
+database_id = "eb62b02f-986d-4600-ad95-5122707d1379"
+
+# Set the real admin password as a secret, not here:
+#   wrangler secret put ADMIN_PASSWORD
